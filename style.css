@@ -1,0 +1,25 @@
+
+body {
+    background: url('assets/20190625_154547.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+.picjust {
+    margin-bottom: 50px;
+}
+
+
+
+iframe {
+    display: block;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    margin: 20px;
+}
+
+.output {
+    background: #eee;
+}
