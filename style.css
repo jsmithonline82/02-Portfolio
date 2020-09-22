@@ -13,12 +13,12 @@ body {
 
 
 
-iframe {
+/* iframe {
     display: block;
     width: calc(100% - 40px);
     height: calc(100% - 40px);
     margin: 20px;
-}
+} */
 
 .output {
     background: #eee;
@@ -49,4 +49,8 @@ img {
   .opa2 {
     background: rgba(52, 58, 64, 0.99);
     
+  }
+
+.rc {
+    height: 100%;
   }
