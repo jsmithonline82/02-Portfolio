@@ -23,3 +23,30 @@ iframe {
 .output {
     background: #eee;
 }
+
+@font-face {
+    font-family: 'DINAlternateBold';
+    src: url(./fonts/din/DINAlternateBold.otf);
+    }
+
+h4.DINAlternateBold-font {
+    font-family: 'DINAlternateBold', sans-serif !important ;
+    }
+
+.cd {
+    margin-bottom: 42px;
+}
+
+img {
+    border:2px solid white;
+}
+
+.opa {
+    background: rgba(52, 58, 64, 0.8);
+    
+  }
+
+  .opa2 {
+    background: rgba(52, 58, 64, 0.99);
+    
+  }
