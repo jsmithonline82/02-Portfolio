@@ -4,73 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--CSS FOR SOCIAL MEDIA LOGOS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--CSS FOR ALTERNATE FONT-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <!--CUSTOM CSS-->
     <link rel="stylesheet" href="style.css">
     <title>I'm Jackson Smith</title>
 </head>
+
+<!---I USED ALTERNATE FONT FOR MY PAGE IN THE BODY CLASS TAG-->
 <body class="DINAlternateBold-font text-uppercase">
-
-     <header class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-light shadow-lg">
-        <a class="navbar-brand" href="#">Jackson Smith</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="Realcomp.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Projects
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="portfolio.html">Web Development</a>
-                <a class="dropdown-item" href="portfolio.html#music">Music</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="Realcomp.html">Real Estate</a>
-              </div>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-        </div>
-      </header>
-
-      <!-- <div class="view" style="background-image: url('assets/20190625_154547.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-       -->
-      <div class="container flex-fill">
-          <div class="row justify-content-center aboutMe">
-            <div class="opa col col-md-8 mb-5 overflow:auto text-white border border-light rounded-lg mt-5 shadow-lg">
-                <h1 class="border-bottom mt-2 pt=2 pb=2">Contact Me</h1>
-                <address>
-                    <form style=align-center action="mailto:jsmithbootcamp2020@gmail.com" method="post" enctype="text/plain">
-                        Name:<br>
-                        <input type="text" name="name"><br>
-                        E-mail:<br>
-                        <input type="text" name="mail"><br>
-                        Comment:<br>
-                        <input type="text" name="comment" size="50"><br><br>
-                        <input type="submit" value="Send">
-                        <input type="reset" value="Reset">
-                    </form>
-                </address>
-            </div>
+     
+  <!--HEADER NAVBAR WITH DROPDOWN-->  
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-light shadow-lg">
+    <a class="navbar-brand" href="#">Jackson Smith</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="Realcomp.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="portfolio.html">Web Development</a>
+            <a class="dropdown-item" href="portfolio.html#music">Music</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="realestate.html">Real Estate</a>
           </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!--CONTACT FORM * OPENS MAIL PROGRAM-->
+  <div class="container flex-fill">
+    <div class="row justify-content-center aboutMe">
+      <div class="opa col col-md-8 mb-5 overflow:auto text-white border border-light rounded-lg mt-5 shadow-lg">
+        <h1 class="border-bottom mt-2 pt=2 pb=2">Contact Me</h1>
+        <address>
+          <form style=align-center action="mailto:jsmithbootcamp2020@gmail.com" method="post" enctype="text/plain">
+              Name:<br>
+              <input type="text" name="name"><br>
+              E-mail:<br>
+              <input type="text" name="mail"><br>
+              Comment:<br>
+              <input type="text" name="comment" size="50"><br><br>
+              <input type="submit" value="Send">
+              <input type="reset" value="Reset">
+          </form>
+        </address>
       </div>
-       
-      <footer class="footer fixed-bottom m-0 p-3 bg-dark text-white border-top border-light mt-5">
-        <div class="container">
-          <span class="text-muted">
-            <a class="m-3" href="https://www.linkedin.com/in/jackson-smith-8536971ab" target="_blank" style="font-size:32px"><i class="fa fa-linkedin-square" style="color: white;"></i></a></i>
-            <a href="https://www.instagram.com/where_zzz_jackson/" target="_blank" style="font-size:32px"><i class="fa fa-instagram" style="color: white;"></i></a></i>
-            <span class="ml-5">Copyright Jackson Smith Online 2020</span>
-          
-          </span>
-        </div>
-      </footer>
+    </div>
+  </div>
+    
+  <footer class="footer fixed-bottom m-0 p-3 bg-dark text-white border-top border-light mt-5">
+    <div class="container">
+      <span class="text-muted">
+        <a class="m-3" href="https://www.linkedin.com/in/jackson-smith-8536971ab" target="_blank" style="font-size:32px"><i class="fa fa-linkedin-square" style="color: white;"></i></a></i>
+        <a href="https://www.instagram.com/where_zzz_jackson/" target="_blank" style="font-size:32px"><i class="fa fa-instagram" style="color: white;"></i></a></i>
+        <span class="ml-5">Copyright Jackson Smith Online 2020</span>
+      </span>
+    </div>
+  </footer>
     
 
 

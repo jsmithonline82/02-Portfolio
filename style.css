@@ -1,4 +1,4 @@
-
+/**BACKGROUND IMAGE CSS***TRIED BUT HAD ISSUES DOING BG IMAGE WITH BOOTSTRAP*/
 body {
     background: url('assets/20190625_154547.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -7,18 +7,7 @@ body {
     -o-background-size: cover;
   }
 
-.picjust {
-    margin-bottom: 50px;
-}
-
-
-
-
-
-.output {
-    background: #eee;
-}
-
+/*SITEWIDE FONT CHANGE*/
 @font-face {
     font-family: 'DINAlternateBold';
     src: url(./fonts/din/DINAlternateBold.otf);
@@ -28,24 +17,22 @@ h4.DINAlternateBold-font {
     font-family: 'DINAlternateBold', sans-serif !important ;
     }
 
+/*ADJUSTMENT FOR CERTAIN ALBUM COVERS IN MUSIC PORTFOLIO*/
 .cd {
     margin-bottom: 42px;
 }
 
+/*ADDING BORDER TO ALL IMAGES IN PORTFOLIO SECTION*/
 img {
     border:2px solid white;
 }
 
+/*OPACITY FOR BACKGROUNDS OF MAIN CONTENT ** USING RGBA METHOD*/
 .opa {
     background: rgba(52, 58, 64, 0.8);
-    
-  }
+}
 
-  .opa2 {
-    background: rgba(52, 58, 64, 0.99);
-    
-  }
-
-.rc {
+/*--HAD A HEIGHT ISSUE WITH MY iFRAME IN REALESTATE.HTML *** SEEMS RESOLVED BUT I WANT MAKE SURE
+/* .rc {
     height: 100%;
-  }
+  } */
