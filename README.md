@@ -14,7 +14,7 @@ I did not use media queries
 
 [a link](https://jsmithonline82.github.io/02-Portfolio/)
 
-![alt text](/https://jsmithonline82.github.io/02-Portfolio/assets/Index.png)
+![img of index](https://jsmithonline82.github.io/02-Portfolio/assets/Index.png)
 
 --------------------------------
 
