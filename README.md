@@ -1,16 +1,10 @@
-# 02-Portfolio
+# 08-Portfolio
 
-For this Homework I met the requirements listed to the best of my knowledge
+Responsive Portfolio
 
-I have index.html, portfolio.html and contact.html.
+bootsrap, jquery, html, css used
 
-I used Bootstrap
 
-I have a Nav Bar
-
-I have a responsive layout and images
-
-I did not use media queries
 
 [Deployment Link](https://jsmithonline82.github.io/02-Portfolio/)
 
@@ -18,7 +12,7 @@ I did not use media queries
 
 --------------------------------
 
-I added a section for a musical portfolio
+I added a section for a musical portfolio. Plan on moving site to a server for new funtionality
 
 I used iFrame to integrate my existing Real Estate web site
 
