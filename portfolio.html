@@ -78,7 +78,7 @@
                 <img src="assets2/quiz.png" style="height: 25%" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Java Script Quiz</h5>
-                  <p class="card-text">Test your knowlege of Java Script with this timed and scored Quiz.</p>
+                  <p class="card-text text-dark">Test your knowlege of Java Script with this timed and scored Quiz.</p>
                   <a href="https://jsmithonline82.github.io/04-JAVA_SCRIPT_QUIZ/" class="btn btn-primary">Java Script Quiz</a>
                 </div>
             </div>
@@ -88,18 +88,8 @@
       
     </section>
 
-    <script type="text/javascript">
-      var folder = "https://github.com/jsmithonline82/02-Portfolio/tree/master/assets/albums"; //TODO: change this to the path to your folder with the images.
-      $.ajax({
-          url: folder,
-          success: function(data) {
-              $(data).find("a").attr("href", function(i, val) {
-                  $("body").append("<img src='" + folder + '/' + val + "'>");
-              });
-          }
-      });
-  </script>
-    <!--PORTFOLIO OF MUSICAL WORK * LATER PLANS TO MAKE ALBUM COVERS INTERACTIVE-->
+    
+    <!--PORTFOLIO OF MUSICAL WORK * I WANT TO MAKE THIS DYNAMIC BUT THINK I NEED PHP ABILITIES-->
     <section>
       <div id="music" class="row justify-content-center mb-5 aboutMe">
         <div class="opa col col-md-12 mt-5 mb-5 pr-5 text-white border border-light rounded-lg shadow-lg" style="max-height: auto;">
