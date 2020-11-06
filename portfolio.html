@@ -51,41 +51,54 @@
   <div class="container flex-fill">
     <!--THIS SECTION IS FOR MY WEB WORK PORTFOLIO. OCCUPIED WITH PLACEHOLDERS-->
     <section> 
-      <div class="row justify-content-center mb-5 aboutMe">
-        <div id=web class="opa col col-md-12 mt-5 mb-5  pr-sm-5 text-white border border-light rounded-lg shadow-lg" style="max-height: auto;">
+      
+        <div class="container opa mt-5 mb-5  p-5 text-white border border-light rounded-lg shadow-lg" style="max-height: auto;">
           <h1 class="border-bottom mt-2 mb-2 pt=2 pb=2">Web Portfolio</h1>
             <!--CLASS PROJECT-->
-            <div class="card float-left" style="width: 18rem;">
-              <img src="assets2/weather jams.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Group Project 1</h5>
-                <p class="card-text text-dark">Weather-Jams was made to generate a curated playlist of music based on weather conditions.</p>
-                <a href="https://alysonbennett.github.io/Weather-Jams/" class="btn btn-primary">Weather-Jams</a>
+            <div id=web class="row">
+              <div class="col-sm card m-2" style="width: 18rem;">
+                <img src="assets2/weather jams.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Group Project 1</h5>
+                  <p class="card-text text-dark">Weather-Jams was made to generate a curated playlist of music based on weather conditions.</p>
+                  <a href="https://alysonbennett.github.io/Weather-Jams/" class="btn btn-primary">Weather-Jams</a>
+                </div>
               </div>
-            </div>
-            <!--HW 1-->
-            <div class="card float-right" style="width: 18rem;">
-              <img src="assets2/planner.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Work Day Planner</h5>
-                <p class="card-text text-dark">This work day planner keeps track of all your to-dos, and greys them out as time passes.</p>
-                <a href="https://jsmithonline82.github.io/05-Work-Day-Planner/" class="btn btn-primary">Day Planner</a>
+              <!--HW 1-->
+              <div class="col-sm card m-2 float-left" style="width: 18rem;">
+                <img src="assets2/planner.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Work Day Planner</h5>
+                  <p class="card-text text-dark">This work day planner keeps track of all your to-dos, and greys them out as time passes.</p>
+                  <a href="https://jsmithonline82.github.io/05-Work-Day-Planner/" class="btn btn-primary">Day Planner</a>
+                </div>
               </div>
-            </div>
-            <!--HW 2-->
-            <div class="card float-right" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+              <!--HW 2-->
+              <div class="col-sm card m-2 float-left" style="width: 18rem;">
+                <img src="assets2/quiz.png" style="height: 25%" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Java Script Quiz</h5>
+                  <p class="card-text">Test your knowlege of Java Script with this timed and scored Quiz.</p>
+                  <a href="https://jsmithonline82.github.io/04-JAVA_SCRIPT_QUIZ/" class="btn btn-primary">Java Script Quiz</a>
+                </div>
             </div>
             
             
         </div>
-      </div>
+      
     </section>
+
+    <script type="text/javascript">
+      var folder = "https://github.com/jsmithonline82/02-Portfolio/tree/master/assets/albums"; //TODO: change this to the path to your folder with the images.
+      $.ajax({
+          url: folder,
+          success: function(data) {
+              $(data).find("a").attr("href", function(i, val) {
+                  $("body").append("<img src='" + folder + '/' + val + "'>");
+              });
+          }
+      });
+  </script>
     <!--PORTFOLIO OF MUSICAL WORK * LATER PLANS TO MAKE ALBUM COVERS INTERACTIVE-->
     <section>
       <div id="music" class="row justify-content-center mb-5 aboutMe">
