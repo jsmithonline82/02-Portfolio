@@ -2,13 +2,15 @@
 
 Responsive Portfolio
 
+UPDATES PORTFOLIO UPDATE #2! I adapted this site to use Node, Express and Handlebars
+
 bootsrap, jquery, html, css used
 
 
 
-[Deployment Link](https://jsmithonline82.github.io/02-Portfolio/)
+[Deployment Link](https://portfoliojfs.herokuapp.com/)
 
-![img of index](https://jsmithonline82.github.io/02-Portfolio/assets/Index.png)
+![img of index](https://jsmithonline82.github.io/02-Portfolio/public/assets/Index.png)
 
 --------------------------------
 
